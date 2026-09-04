@@ -4,6 +4,7 @@ import Cover from '@/components/Cover';
 import DateSection from '@/components/DateSection';
 import Greeting from '@/components/Greeting';
 import Hosts from '@/components/Hosts';
+import MusicToggle from '@/components/MusicToggle';
 import Ornament from '@/components/Ornament';
 import Reveal from '@/components/Reveal';
 import Rsvp from '@/components/Rsvp';
@@ -15,6 +16,7 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <main className={`linen ${styles.page}`}>
+      <MusicToggle />
       <Cover />
       <Reveal className={styles.dividerTight}>
         <Ornament variant="flourish" />

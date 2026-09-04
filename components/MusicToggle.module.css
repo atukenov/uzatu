@@ -1,0 +1,28 @@
+.button {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 40;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--bronze);
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--olive-gold);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--olive-gold);
+  outline-offset: 2px;
+}
