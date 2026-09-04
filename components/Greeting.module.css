@@ -1,0 +1,21 @@
+.wrap {
+  padding: 34px 30px 0;
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font-handwritten);
+  font-size: 33px;
+  color: var(--brown-script);
+}
+
+.paragraph {
+  margin-top: 14px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 2.1;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-wrap: pretty;
+}

@@ -1,0 +1,46 @@
+.frame {
+  position: relative;
+  padding: 9px;
+  border: 1px solid var(--bronze-light);
+}
+
+.frameLarge {
+  border-radius: 145px 145px 16px 16px;
+}
+
+.frameSmall {
+  padding: 7px;
+  border-radius: 74px 74px 12px 12px;
+}
+
+.inner {
+  position: relative;
+  overflow: hidden;
+  background: #efe7d8;
+}
+
+.innerLarge {
+  border-radius: 138px 138px 10px 10px;
+  aspect-ratio: 0.74;
+}
+
+.innerSmall {
+  border-radius: 68px 68px 7px 7px;
+  aspect-ratio: 0.7;
+}
+
+.cornerLeft,
+.cornerRight {
+  position: absolute;
+  bottom: -4px;
+  color: var(--bronze);
+}
+
+.cornerLeft {
+  left: -4px;
+}
+
+.cornerRight {
+  right: -4px;
+  transform: scaleX(-1);
+}

@@ -1,0 +1,41 @@
+.textBlock {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.name {
+  font-family: var(--font-script);
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 1.05;
+  color: var(--olive-deep);
+}
+
+.kicker {
+  margin-top: 12px;
+  font-family: var(--font-ceremonial);
+  font-size: 12.5px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--olive-gold);
+}
+
+.photoWrap {
+  margin: 24px 28px 0;
+}
+
+.scrollCue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding: 26px 0 0;
+  color: var(--olive-gold);
+}
+
+.scrollCueLabel {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}

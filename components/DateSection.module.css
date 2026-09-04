@@ -1,0 +1,87 @@
+.heading {
+  text-align: center;
+  padding: 54px 0 0;
+  font-family: var(--font-handwritten);
+  font-size: 36px;
+  color: var(--brown-script);
+}
+
+.card {
+  margin: 18px 24px 0;
+  padding: 18px 16px 20px;
+  border: 1px solid rgba(169, 132, 106, 0.45);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.monthLabel {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--olive-gold);
+}
+
+.weekdayRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px 0;
+  margin-top: 14px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--olive-gold);
+  text-align: center;
+}
+
+.dayGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 9px 0;
+  margin-top: 10px;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  color: var(--text);
+  text-align: center;
+}
+
+.circledDay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--olive-deep);
+}
+
+.circle {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  border: 1.4px solid var(--bronze);
+  border-radius: 50%;
+  transform: rotate(-8deg);
+}
+
+.dateLines {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dateLine {
+  font-family: var(--font-ceremonial);
+  font-size: 15px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.timeLine {
+  margin-top: 8px;
+  font-family: var(--font-ceremonial);
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+}

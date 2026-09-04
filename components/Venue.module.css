@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 22px 24px 0;
+}
+
+.photo {
+  flex: 0 0 120px;
+}
+
+.info {
+  flex: 1;
+  text-align: left;
+}
+
+.pin {
+  color: var(--bronze);
+}
+
+.label {
+  margin-top: 8px;
+  font-family: var(--font-ceremonial);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-gold);
+}
+
+.name {
+  margin-top: 4px;
+  font-family: var(--font-handwritten);
+  font-size: 30px;
+  line-height: 1.1;
+  color: var(--brown-script);
+}
+
+.line {
+  margin-top: 4px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.mapButtonWrap {
+  padding: 20px 24px 0;
+}
+
+.mapButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  height: 52px;
+  border-radius: 999px;
+  border: 1px solid var(--bronze);
+  background: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+}

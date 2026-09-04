@@ -1,0 +1,21 @@
+.verse {
+  position: relative;
+  margin-top: 26px;
+  aspect-ratio: 736 / 1197;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+  font-family: var(--font-handwritten);
+  font-size: 20px;
+  line-height: 2.05;
+  color: var(--olive-darkest);
+  background-image: url('/images/verse-background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.line {
+  margin-top: 10px;
+}

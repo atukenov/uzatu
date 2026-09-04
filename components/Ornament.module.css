@@ -1,0 +1,27 @@
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.lineLeft {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(169, 132, 106, 0), var(--bronze));
+}
+
+.lineRight {
+  height: 1px;
+  background: linear-gradient(90deg, var(--bronze), rgba(169, 132, 106, 0));
+}
+
+.flourish {
+  color: var(--olive-gold);
+  flex-shrink: 0;
+}
+
+.diamond {
+  border: 1px solid var(--olive-gold);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}

@@ -1,0 +1,51 @@
+.hosts {
+  position: relative;
+  margin-top: 52px;
+  aspect-ratio: 0.8;
+  overflow: hidden;
+  background: #efe7d8;
+}
+
+.veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 241, 228, 0.92) 0%,
+    rgba(247, 241, 228, 0.28) 26%,
+    rgba(247, 241, 228, 0.34) 62%,
+    rgba(247, 241, 228, 0.94) 100%
+  );
+}
+
+.hostsLabel {
+  position: absolute;
+  top: 58%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: var(--font-ceremonial);
+  font-size: 15px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #7a6a40;
+  text-shadow: 0 1px 10px rgba(247, 241, 228, 0.85);
+}
+
+.namesWrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 28px 96px;
+  text-align: center;
+}
+
+.names {
+  font-family: var(--font-handwritten);
+  font-size: 42px;
+  line-height: 1.2;
+  color: var(--olive-darkest);
+  text-shadow: 0 1px 12px rgba(247, 241, 228, 0.9);
+}
