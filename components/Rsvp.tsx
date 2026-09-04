@@ -5,13 +5,7 @@ import Ornament from './Ornament';
 import Reveal from './Reveal';
 import styles from './Rsvp.module.css';
 import { submitRsvp } from '@/lib/actions';
-import type { RsvpChoice } from '@/lib/event';
-
-const OPTIONS: { value: RsvpChoice; label: string }[] = [
-  { value: 'alone', label: 'Ия, әрине келемін' },
-  { value: 'spouse', label: 'Жұбайыммен келемін' },
-  { value: 'no', label: 'Өкінішке орай, келе алмаймын' },
-];
+import { RSVP_CHOICES, type RsvpChoice } from '@/lib/event';
 
 export default function Rsvp() {
   const [name, setName] = useState('');
@@ -61,7 +55,7 @@ export default function Rsvp() {
           />
           <p className={styles.question}>Тойға келесіз бе?</p>
           <div className={styles.radioGroup} role="radiogroup" aria-label="Тойға келесіз бе?">
-            {OPTIONS.map((opt) => (
+            {RSVP_CHOICES.map((opt) => (
               <label key={opt.value} className={styles.radioRow}>
                 <input
                   type="radio"

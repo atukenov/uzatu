@@ -25,3 +25,9 @@ export const event = {
 } as const;
 
 export type RsvpChoice = 'alone' | 'spouse' | 'no';
+
+export const RSVP_CHOICES: { value: RsvpChoice; label: string }[] = [
+  { value: 'alone', label: 'Ия, әрине келемін' },
+  { value: 'spouse', label: 'Жұбайыммен келемін' },
+  { value: 'no', label: 'Өкінішке орай, келе алмаймын' },
+];
