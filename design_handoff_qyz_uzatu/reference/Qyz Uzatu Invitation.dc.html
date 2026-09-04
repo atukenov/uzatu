@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Yeseva+One&family=Bad+Script&family=PT+Sans:wght@400;700&display=swap">
+<link rel="stylesheet" href="_ds/organic-25d6ef75-0530-4d8d-a42d-86e1bdbd9295/styles.css">
+<script src="_ds/organic-25d6ef75-0530-4d8d-a42d-86e1bdbd9295/_ds_bundle.js"></script>
+<style>
+body{margin:0;background:#EDE7DA;font-family:'PT Sans',system-ui,sans-serif}
+a{color:#8A7A4E}a:hover{color:#6F6238}
+.stage{padding:44px 48px 40px}
+.stage-hd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.stage-id{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#2E2A24;color:#F7F1E4;border-radius:4px}
+.stage-name{font:500 13px/1.2 'PT Sans',system-ui,sans-serif;color:#2E2A24}
+.stage-next{margin:24px 0 0;font:12px/1.6 'PT Sans',system-ui,sans-serif;color:rgba(46,42,36,.55)}
+.linen{background-color:#F7F1E4;background-image:repeating-linear-gradient(90deg,rgba(138,122,78,.055) 0 1px,rgba(255,255,255,0) 1px 3px),repeating-linear-gradient(0deg,rgba(138,122,78,.045) 0 1px,rgba(255,255,255,0) 1px 3px),radial-gradient(120% 60% at 50% 0%,rgba(255,255,255,.5),rgba(255,255,255,0) 60%)}
+.rv{opacity:0;transform:translateY(22px);transition:opacity 1.2s cubic-bezier(.22,.61,.36,1),transform 1.2s cubic-bezier(.22,.61,.36,1)}
+.rv.in{opacity:1;transform:none}
+.rv-d1{transition-delay:.12s}.rv-d2{transition-delay:.24s}.rv-d3{transition-delay:.36s}
+</style></helmet>
+
+<section class="stage">
+<div class="stage-hd"><span class="stage-id">1e</span><span class="stage-name">Қыз ұзату — one continuous invitation, sections fade in on scroll (iPhone 375×812)</span></div>
+
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" width="375px" height="812px" hint-size="375px,812px">
+<div class="linen" ref="{{ scrollRoot }}" style="min-height:100%;box-sizing:border-box;padding:74px 0 64px">
+
+  <div style="padding:0 30px;text-align:center">
+    <div class="rv" style="font-family:'Caveat',cursive;font-weight:600;font-size:68px;line-height:1.05;color:#6F6238">Нұрай</div>
+    <div class="rv rv-d1" style="margin-top:12px;font-family:'PT Serif',serif;font-family:'Yeseva One',serif;font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;color:#8A7A4E">Ұядан ұшқан күн</div>
+  </div>
+  <div class="rv rv-d2" style="margin:24px 28px 0;position:relative;padding:9px;border:1px solid #BFA184;border-radius:145px 145px 16px 16px">
+    <div style="overflow:hidden;border-radius:138px 138px 10px 10px;aspect-ratio:.74;background:#EFE7D8">
+      <img src="uploads/IMG_9615.JPG" alt="Сәукеле" style="width:100%;height:100%;object-fit:cover;object-position:50% 22%;filter:saturate(.82) contrast(.94) brightness(1.03)">
+    </div>
+    <svg width="32" height="32" viewBox="0 0 34 34" style="position:absolute;left:-4px;bottom:-4px;color:#A9846A"><path d="M2 32V18c0-9 7-16 16-16h14" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M8 32c0-8 2-14 8-18 4-3 9-4 14-4" fill="none" stroke="currentColor" stroke-width=".7" opacity=".65"></path></svg>
+    <svg width="32" height="32" viewBox="0 0 34 34" style="position:absolute;right:-4px;bottom:-4px;color:#A9846A;transform:scaleX(-1)"><path d="M2 32V18c0-9 7-16 16-16h14" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M8 32c0-8 2-14 8-18 4-3 9-4 14-4" fill="none" stroke="currentColor" stroke-width=".7" opacity=".65"></path></svg>
+  </div>
+  <div class="rv rv-d3" style="display:flex;flex-direction:column;align-items:center;gap:7px;padding:26px 0 0;color:#8A7A4E">
+    <span style="font-family:'PT Sans',sans-serif;font-size:10px;letter-spacing:.2em;text-transform:uppercase">Төмен жүргізіңіз</span>
+    <svg width="15" height="9" viewBox="0 0 16 10"><path d="M1 1l7 7 7-7" fill="none" stroke="currentColor" stroke-width="1.2"></path></svg>
+  </div>
+
+  <div class="rv" style="display:flex;align-items:center;justify-content:center;gap:12px;margin:44px 0 0">
+    <span style="width:56px;height:1px;background:linear-gradient(90deg,rgba(169,132,106,0),#A9846A)"></span>
+    <svg width="44" height="14" viewBox="0 0 46 14" style="color:#8A7A4E"><path d="M23 2c-3 0-5 2-5 5s2 5 5 5 5-2 5-5-2-5-5-5z" fill="none" stroke="currentColor" stroke-width=".9"></path><path d="M18 7C15 3 10 4 8 7c2 3 7 4 10 0zM28 7c3-4 8-3 10 0-2 3-7 4-10 0z" fill="none" stroke="currentColor" stroke-width=".9"></path></svg>
+    <span style="width:56px;height:1px;background:linear-gradient(90deg,#A9846A,rgba(169,132,106,0))"></span>
+  </div>
+  <div class="rv" style="position:relative;margin:26px 0 0;aspect-ratio:736/1197;display:flex;flex-direction:column;justify-content:center;padding:0 30px;text-align:center;font-family:'Bad Script',cursive;font-size:20px;line-height:2.05;color:#5E5230;background-image:url('uploads/IMG_9617-44f9707b.JPG');background-size:100% 100%;background-repeat:no-repeat">
+    <div>Шаңырақтың шырағысың, шаттығы,</div>
+    <div style="margin-top:10px">Текті жердің тұяғысың, ақ гүлі.</div>
+    <div style="margin-top:10px">Мың жыл құда болуға да атты күн,</div>
+    <div style="margin-top:10px">Екі жасқа құдай берсін бақ бүгін.</div>
+  </div>
+  <div style="padding:34px 30px 0;text-align:center">
+    <div class="rv" style="font-family:'Bad Script',cursive;font-size:33px;color:#7A5A42">Құрметті қонақтар!</div>
+    <p class="rv rv-d1" style="margin:14px 0 0;font-family:'PT Serif',serif;font-size:12px;line-height:2.1;letter-spacing:.11em;text-transform:uppercase;color:#3A342B;text-wrap:pretty">Аяулы қызымыз Нұрайдың аялы алақанымыздан құтты босағасына шығарып салу рәсіміне арналған салтанатты тойымызға шақырамыз</p>
+  </div>
+
+  <div class="rv" style="text-align:center;padding:54px 0 0;font-family:'Bad Script',cursive;font-size:36px;color:#7A5A42">Той салтанаты:</div>
+  <div class="rv rv-d1" style="margin:18px 24px 0;padding:18px 16px 20px;border:1px solid rgba(169,132,106,.45);border-radius:22px;background:rgba(255,255,255,.34)">
+    <div style="text-align:center;font-family:'PT Serif',serif;font-size:11.5px;letter-spacing:.3em;text-transform:uppercase;color:#8A7A4E">Қазан 2026</div>
+    <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px 0;margin-top:14px;font-family:'PT Serif',serif;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:#8A7A4E;text-align:center">
+      <span>Дс</span><span>Сс</span><span>Ср</span><span>Бс</span><span>Жұ</span><span>Сн</span><span>Жк</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:9px 0;margin-top:10px;font-family:'PT Serif',serif;font-size:13.5px;color:#3A342B;text-align:center">
+      <span></span><span></span><span></span><span>1</span><span>2</span><span>3</span><span>4</span>
+      <span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+      <span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span>
+      <span>19</span><span>20</span><span>21</span><span>22</span><span style="position:relative;display:flex;align-items:center;justify-content:center;color:#6F6238"><span style="position:absolute;width:29px;height:26px;border:1.4px solid #A9846A;border-radius:50%;transform:rotate(-8deg)"></span>23</span><span>24</span><span>25</span>
+      <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+    </div>
+  </div>
+  <div class="rv rv-d2" style="margin-top:20px;text-align:center;font-family:'PT Serif',serif">
+    <div style="font-family:'Yeseva One',serif;font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:#3A342B">23 қазан, 2026 жыл</div>
+    <div style="margin-top:8px;font-family:'Yeseva One',serif;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:#6F6238">Сағат 18:00</div>
+  </div>
+
+  <div class="rv" style="display:flex;align-items:center;justify-content:center;gap:12px;margin:44px 0 0">
+    <span style="width:50px;height:1px;background:linear-gradient(90deg,rgba(169,132,106,0),#A9846A)"></span>
+    <span style="width:7px;height:7px;border:1px solid #8A7A4E;transform:rotate(45deg)"></span>
+    <span style="width:50px;height:1px;background:linear-gradient(90deg,#A9846A,rgba(169,132,106,0))"></span>
+  </div>
+  <div class="rv rv-d1" style="display:flex;gap:16px;align-items:center;padding:22px 24px 0">
+    <div style="flex:0 0 120px;padding:7px;border:1px solid #BFA184;border-radius:74px 74px 12px 12px">
+      <div style="overflow:hidden;border-radius:68px 68px 7px 7px;aspect-ratio:.7;background:#EFE7D8">
+        <img src="uploads/IMG_9619.JPG" alt="Той залы" style="width:100%;height:100%;object-fit:cover;filter:saturate(.8) contrast(.93) brightness(1.04)">
+      </div>
+    </div>
+    <div style="flex:1;text-align:left">
+      <svg width="17" height="21" viewBox="0 0 24 24" fill="none" stroke="#A9846A" stroke-width="2.75"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"></path><circle cx="12" cy="10" r="2.6"></circle></svg>
+      <div style="margin-top:8px;font-family:'PT Serif',serif;font-family:'Yeseva One',serif;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#8A7A4E">Мекен-жайымыз</div>
+      <div style="margin-top:4px;font-family:'Bad Script',cursive;font-size:30px;line-height:1.1;color:#7A5A42">Атамұра</div>
+      <div style="margin-top:4px;font-family:'PT Serif',serif;font-size:12.5px;line-height:1.6;color:#3A342B">мейрамханасы<br>Махамбет ауданы</div>
+    </div>
+  </div>
+  <div class="rv rv-d2" style="padding:20px 24px 0"><a href="{{ mapUrl }}" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:9px;height:52px;border-radius:999px;border:1px solid #A9846A;background:rgba(255,255,255,.4);font:500 11.5px 'PT Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#6F6238;text-decoration:none">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"></path><path d="M9 4v14M15 6v14"></path></svg>Картадан көру</a></div>
+
+  <div class="rv" style="padding:56px 28px 0;text-align:center">
+    <div style="font-family:'PT Serif',serif;font-family:'Yeseva One',serif;font-size:13px;line-height:2;letter-spacing:.16em;text-transform:uppercase;color:#3A342B">Тойға қатысуыңызды<br>растауыңызды сұраймыз</div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin:16px 0 0">
+      <span style="width:40px;height:1px;background:linear-gradient(90deg,rgba(169,132,106,0),#A9846A)"></span>
+      <span style="width:6px;height:6px;border:1px solid #8A7A4E;transform:rotate(45deg)"></span>
+      <span style="width:40px;height:1px;background:linear-gradient(90deg,#A9846A,rgba(169,132,106,0))"></span>
+    </div>
+  </div>
+  <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+  <div class="rv rv-d1" style="padding:20px 28px 0">
+    <div style="font-family:'PT Serif',serif;font-size:12px;line-height:1.7;color:rgba(46,42,36,.7)">Аты-жөніңізді жазыңыз (жұбайыңызбен келетін болсаңыз, есімдеріңізді бірге жазуды өтінеміз)</div>
+    <input type="text" placeholder="Есіміңіз" onInput="{{ onName }}" style="margin-top:11px;width:100%;box-sizing:border-box;height:52px;padding:0 20px;border-radius:999px;border:1px solid #BFA184;background:rgba(255,255,255,.75);font-family:'PT Serif',serif;font-size:15px;color:#2E2A24;outline:none">
+    <div style="margin-top:22px;font-family:'PT Serif',serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A7A4E">Тойға келесіз бе?</div>
+    <div style="display:flex;flex-direction:column;gap:2px;margin-top:10px">
+      <div onClick="{{ pickAlone }}" style="display:flex;align-items:center;gap:13px;min-height:46px;padding:0 6px;border-radius:14px;cursor:pointer;transition:background .3s" style-hover="background:rgba(169,132,106,.09)">
+        <span style="flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1.3px solid #A9846A;display:flex;align-items:center;justify-content:center"><sc-if value="{{ isAlone }}" hint-placeholder-val="{{ false }}"><span style="width:10px;height:10px;border-radius:50%;background:#8A7A4E"></span></sc-if></span>
+        <span style="font-family:'PT Serif',serif;font-size:14px;color:#3A342B">Ия, әрине келемін</span>
+      </div>
+      <div onClick="{{ pickSpouse }}" style="display:flex;align-items:center;gap:13px;min-height:46px;padding:0 6px;border-radius:14px;cursor:pointer;transition:background .3s" style-hover="background:rgba(169,132,106,.09)">
+        <span style="flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1.3px solid #A9846A;display:flex;align-items:center;justify-content:center"><sc-if value="{{ isSpouse }}" hint-placeholder-val="{{ false }}"><span style="width:10px;height:10px;border-radius:50%;background:#8A7A4E"></span></sc-if></span>
+        <span style="font-family:'PT Serif',serif;font-size:14px;color:#3A342B">Жұбайыммен келемін</span>
+      </div>
+      <div onClick="{{ pickNo }}" style="display:flex;align-items:center;gap:13px;min-height:46px;padding:0 6px;border-radius:14px;cursor:pointer;transition:background .3s" style-hover="background:rgba(169,132,106,.09)">
+        <span style="flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1.3px solid #A9846A;display:flex;align-items:center;justify-content:center"><sc-if value="{{ isNo }}" hint-placeholder-val="{{ false }}"><span style="width:10px;height:10px;border-radius:50%;background:#8A7A4E"></span></sc-if></span>
+        <span style="font-family:'PT Serif',serif;font-size:14px;color:#3A342B">Өкінішке орай, келе алмаймын</span>
+      </div>
+    </div>
+    <div onClick="{{ send }}" style="margin-top:22px;display:flex;align-items:center;justify-content:center;height:56px;border-radius:999px;background:linear-gradient(180deg,#9A7452,#7E5B3E);box-shadow:0 8px 20px rgba(126,91,62,.28);font:500 12.5px 'PT Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#FBF6EC;cursor:pointer;transition:filter .3s,transform .2s" style-hover="filter:brightness(1.07)" style-active="transform:translateY(1px)">Жауапты жіберу</div>
+  </div>
+  </sc-if>
+  <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+  <div style="padding:26px 32px 0;text-align:center">
+    <div style="margin:0 auto;width:60px;height:60px;border-radius:50%;border:1px solid #A9846A;display:flex;align-items:center;justify-content:center">
+      <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="#8A7A4E" stroke-width="2.4"><path d="M20 6L9 17l-5-5"></path></svg>
+    </div>
+    <div style="margin-top:16px;font-family:'Bad Script',cursive;font-size:34px;color:#7A5A42">Рахмет!</div>
+    <div style="margin-top:8px;font-family:'PT Serif',serif;font-size:13px;line-height:1.8;color:#3A342B">Жауабыңыз қабылданды. Той иелері сізді қуана күтеді.</div>
+    <div onClick="{{ reset }}" style="margin-top:18px;font:500 10.5px 'PT Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#8A7A4E;cursor:pointer">Жауапты өзгерту</div>
+  </div>
+  </sc-if>
+
+  <div class="rv" style="text-align:center;padding:54px 0 0;font-family:'Bad Script',cursive;font-size:36px;color:#7A5A42">Тойға дейін:</div>
+  <div class="rv rv-d1" style="display:flex;justify-content:center;gap:8px;padding:20px 16px 0">
+    <div style="width:75px;height:75px;border-radius:50%;border:1.6px solid #8A7A4E;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:rgba(255,255,255,.3)">
+      <span style="font-family:'PT Serif',serif;font-size:22px;color:#3A342B">{{ days }}</span>
+      <span style="font:500 8.5px 'PT Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#8A7A4E">күн</span>
+    </div>
+    <div style="width:75px;height:75px;border-radius:50%;border:1.6px solid #8A7A4E;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:rgba(255,255,255,.3)">
+      <span style="font-family:'PT Serif',serif;font-size:22px;color:#3A342B">{{ hours }}</span>
+      <span style="font:500 8.5px 'PT Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#8A7A4E">сағат</span>
+    </div>
+    <div style="width:75px;height:75px;border-radius:50%;border:1.6px solid #8A7A4E;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:rgba(255,255,255,.3)">
+      <span style="font-family:'PT Serif',serif;font-size:22px;color:#3A342B">{{ minutes }}</span>
+      <span style="font:500 8.5px 'PT Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#8A7A4E">минут</span>
+    </div>
+    <div style="width:75px;height:75px;border-radius:50%;border:1.6px solid #A9846A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:rgba(255,255,255,.3)">
+      <span style="font-family:'PT Serif',serif;font-size:22px;color:#7A5A42">{{ seconds }}</span>
+      <span style="font:500 8.5px 'PT Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#A9846A">секунд</span>
+    </div>
+  </div>
+
+  <div class="rv" style="position:relative;margin:52px 0 0;aspect-ratio:.8;overflow:hidden;background:#EFE7D8">
+    <img src="uploads/IMG_9621.JPG" alt="Киіз үй іші" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.72) contrast(.92) brightness(1.06)">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(247,241,228,.92) 0%,rgba(247,241,228,.28) 26%,rgba(247,241,228,.34) 62%,rgba(247,241,228,.94) 100%)"></div>
+    <div style="position:absolute;top:58%;left:0;right:0;transform:translateY(-50%);text-align:center;font-family:'Yeseva One',serif;font-size:15px;letter-spacing:.22em;text-transform:uppercase;color:#7A6A40;text-shadow:0 1px 10px rgba(247,241,228,.85)">Той иелері</div>
+    <div style="position:absolute;left:0;right:0;bottom:0;padding:0 28px 96px;text-align:center">
+      <div style="font-family:'Bad Script',cursive;font-size:42px;line-height:1.2;color:#5E5230;text-shadow:0 1px 12px rgba(247,241,228,.9)">Қайрат &amp; Роза</div>
+    </div>
+  </div>
+  <div class="rv rv-d2" style="display:flex;align-items:center;justify-content:center;gap:12px;margin:40px 0 0">
+    <span style="width:56px;height:1px;background:linear-gradient(90deg,rgba(169,132,106,0),#A9846A)"></span>
+    <svg width="44" height="14" viewBox="0 0 46 14" style="color:#8A7A4E"><path d="M23 2c-3 0-5 2-5 5s2 5 5 5 5-2 5-5-2-5-5-5z" fill="none" stroke="currentColor" stroke-width=".9"></path><path d="M18 7C15 3 10 4 8 7c2 3 7 4 10 0zM28 7c3-4 8-3 10 0-2 3-7 4-10 0z" fill="none" stroke="currentColor" stroke-width=".9"></path></svg>
+    <span style="width:56px;height:1px;background:linear-gradient(90deg,#A9846A,rgba(169,132,106,0))"></span>
+  </div>
+  <div class="rv rv-d3" style="text-align:center;padding:18px 30px 0;font-family:'Bad Script',cursive;font-size:26px;color:#7A5A42">Сіздің келуіңіз — біздің қуанышымыз</div>
+</div>
+</x-import>
+<p class="stage-next">Try next: "add a Gallery section before the hosts" · "add a share / add-to-calendar row at the end" · "slow the fade and let photos drift up a little further"</p>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:480,&quot;height&quot;:980},&quot;eventDate&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;2026-10-23T18:00:00&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Event&quot;},&quot;mapUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://2gis.kz/atyrau/search/%D0%B0%D1%82%D0%B0%D0%BC%D1%83%D1%80%D0%B0%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD/geo/70030077131277612/51.583544%2C47.675258?m=51.583942%2C47.676526%2F17.81&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Event&quot;}}">
+class Component extends DCLogic {
+  state = { now: Date.now(), choice: null, name: '', sent: false };
+  componentDidMount() {
+    this.t = setInterval(() => this.setState({ now: Date.now() }), 1000);
+    this.armReveal();
+  }
+  componentDidUpdate() { this.armReveal(); }
+  componentWillUnmount() { clearInterval(this.t); if (this.io) this.io.disconnect(); }
+  armReveal() {
+    const root = this.root;
+    if (!root) return;
+    const scroller = root.parentElement;
+    if (!this.io) {
+      this.io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) { e.target.classList.add('in'); this.io.unobserve(e.target); }
+        });
+      }, { root: scroller, rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    }
+    root.querySelectorAll('.rv:not(.in)').forEach((el) => this.io.observe(el));
+  }
+  renderVals() {
+    const target = new Date(this.props.eventDate || '2026-10-23T18:00:00').getTime();
+    const d = Math.max(0, target - this.state.now);
+    const pad = (n) => String(n).padStart(2, '0');
+    return {
+      scrollRoot: (el) => { this.root = el; if (el) this.armReveal(); },
+      days: Math.floor(d / 86400000),
+      hours: pad(Math.floor(d / 3600000) % 24),
+      minutes: pad(Math.floor(d / 60000) % 60),
+      seconds: pad(Math.floor(d / 1000) % 60),
+      mapUrl: this.props.mapUrl || 'https://2gis.kz/atyrau/search/%D0%B0%D1%82%D0%B0%D0%BC%D1%83%D1%80%D0%B0%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD/geo/70030077131277612/51.583544%2C47.675258?m=51.583942%2C47.676526%2F17.81',
+      isAlone: this.state.choice === 'alone',
+      isSpouse: this.state.choice === 'spouse',
+      isNo: this.state.choice === 'no',
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      onName: (e) => this.setState({ name: e.target.value }),
+      pickAlone: () => this.setState({ choice: 'alone' }),
+      pickSpouse: () => this.setState({ choice: 'spouse' }),
+      pickNo: () => this.setState({ choice: 'no' }),
+      send: () => this.setState({ sent: true }),
+      reset: () => this.setState({ sent: false }),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

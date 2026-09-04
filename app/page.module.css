@@ -1,0 +1,14 @@
+.page {
+  min-height: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 74px 0 64px;
+}
+
+.dividerTight {
+  margin: 44px 0 0;
+}
+
+.dividerLoose {
+  margin: 40px 0 0;
+}
