@@ -16,9 +16,10 @@ export default function Hosts() {
       <div className={styles.veil} />
       <div className={styles.hostsLabel}>Той иелері</div>
       <div className={styles.namesWrap}>
-        {event.hostNames.map((name, i) => (
-          <div key={name} className={i > 0 ? `${styles.names} ${styles.nameLine}` : styles.names}>
-            {name}
+        {event.hostNames.map((host, i) => (
+          <div key={host.name} className={i > 0 ? `${styles.names} ${styles.nameLine}` : styles.names}>
+            {'label' in host && <span className={styles.nameLabel}>{host.label} </span>}
+            {host.name}
           </div>
         ))}
       </div>
