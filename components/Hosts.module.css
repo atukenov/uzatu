@@ -38,7 +38,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0 28px 96px;
+  padding: 0 28px 72px;
   text-align: center;
 }
 
@@ -48,4 +48,9 @@
   line-height: 1.2;
   color: var(--olive-darkest);
   text-shadow: 0 1px 12px rgba(247, 241, 228, 0.9);
+}
+
+.nameLine {
+  margin-top: 6px;
+  font-size: 30px;
 }
