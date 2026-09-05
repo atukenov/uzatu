@@ -52,5 +52,8 @@
 
 .nameLine {
   margin-top: 6px;
+}
+
+.nameLabel {
   font-size: 30px;
 }
